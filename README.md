@@ -15,7 +15,7 @@ Which variables are significant in predicting the demand for shared bikes.
 How well those variables describe the bike demands
 Based on various meteorological surveys and people's styles, the service provider firm has gathered a large dataset on daily bike demands across the American market based on some factors. 
 
-Conclusion
+Conclusion------>
 Analysis is carried out using a Mixed Feature Selection Approach. 15 features are selected algorithmically using Recursive Feature Elimination. Further selection is done manually by looking at multicollinearity and statistical significance of features and overall fit of the model. The 10 most significant features to understand demand have been reported.
 
 The data set is randomly divided into training and test data. Final Model built on training data set explains 84% of the variability and achieves 81% on test data.
@@ -63,7 +63,7 @@ r2_score(y_test, y_pred)
 where y_test is the test data set for the target variable, and y_pred is the variable containing the predicted values of the target variable on the test set.
 Please don't forget to perform this step as the R-squared score on the test set holds some marks. The variable names inside the 'r2_score' function can be different based on the variable names you have chosen.
 
-Technologies Used
+Technologies Used------>
 IDE - Google Collab
 Language - Python 3.10.12
 library - numpy v1.22.4
@@ -71,7 +71,7 @@ library - pandas v1.5.3
 library - matplotlib v3.7.1
 library - seaborn v0.12.2
 
-Acknowledgements
+Acknowledgements----->
 Give credit here.
 
 This project was a case study provided by Upgrad
@@ -80,5 +80,5 @@ https://stackoverflow.com/
 https://www.kaggle.com/
 https://www.google.com/
 
-Contact
+Contact---->
 Created by(https://github.com/Mahimaawasthy/Bike-Sharing-System-Assignment) - feel free to contact me!
